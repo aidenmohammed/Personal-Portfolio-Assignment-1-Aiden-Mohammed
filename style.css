@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper {
+    width: 960px;height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+header {
+    color: white;
+}
+#left-column {
+    float: left;
+    width: 400px;
+    background-color: aqua;
+    height: 600px;
+}
+#footer {
+    width: 960px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
