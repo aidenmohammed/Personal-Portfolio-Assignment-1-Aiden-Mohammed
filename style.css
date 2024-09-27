@@ -6,43 +6,74 @@ body {
     background: -webkit-linear-gradient(top, black 100%, white 0%);
     background: -o-linear-gradient(top, black 0%, white 100%);
     background: linear-gradient(to bottom, black 60%, white 115%);
-    padding: 0px;
-    margin: 0px;
+    padding: 0%;
+    margin: 0%;
 }
 #title {
-    width: 960px;
-    height: 812px;
+    width: 50%;
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
-    font-size: 25px;
+    font-size: 165%;
     color: white;
     text-align: center;
 }
-#wrappercontact {
-    width: 960px;
-    height: 900px;
+#contactform {
+    width: 50%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
     color: white;
 }
-header {
-    color: white;
-}
+
 #navigation {
+    color: white;
+    background-color: rgb(39, 39, 39);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 25px;
-    width: 400px;
-    height: 300px;
+    font-size: 150%;
+    width: 50%;
+    height: 60%;
 }
 #footer {
-    width: 960px;
-    height: 80px;
+    width: 50%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
     color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+#projectslist{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}
+
+#projectexplanation{
+    color: white;
+}
+#projecttitle{
+    color: rgb(175, 175, 175);
+}
+#grade{
+    color: rgb(125, 125, 125);
+}
+a:link {
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: rgb(92, 0, 92);
 }
