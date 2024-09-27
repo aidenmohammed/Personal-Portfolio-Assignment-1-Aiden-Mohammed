@@ -1,12 +1,27 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    background: black;
+    background: -moz-linear-gradient(top, black 100%, white 0%);
+    background: -webkit-linear-gradient(top, black 100%, white 0%);
+    background: -o-linear-gradient(top, black 0%, white 100%);
+    background: linear-gradient(to bottom, black 60%, white 115%);
     padding: 0px;
     margin: 0px;
 }
-#wrapper {
-    width: 960px;height: 800px;
+#title {
+    width: 960px;
+    height: 812px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#wrappercontact {
+    width: 960px;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
@@ -15,17 +30,19 @@ body {
 header {
     color: white;
 }
-#left-column {
-    float: left;
+#navigation {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
     width: 400px;
-    background-color: aqua;
-    height: 600px;
+    height: 300px;
 }
 #footer {
     width: 960px;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(39, 39, 39);
     color: white;
 }
