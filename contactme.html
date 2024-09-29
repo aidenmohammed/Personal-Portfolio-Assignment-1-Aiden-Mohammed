@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <meta charset = "UTF-8">
         <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="full.css" media="only screen and (min-width:960px)">
+        <link rel = "stylesheet" type = "text/css" href = "tablet.css"media = "only screen and (min-width:481px) and (max-width:960px)">
+        <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
 
     </head>
     <body>
-        <div id="title">
+        <div id="titlecontact">
             <h1>Contact Form</h1>
         </div>
         <article id = "contactform">
-            <form action="mailto:aiden.mohammed@ontariotechu.ca" method="post" enctype="text/plain" ?subject=Mistakes name = "form">
+            <form action="mailto:aiden.mohammed@ontariotechu.ca" method="post" enctype="text/plain" name = "form">
                 <p>
                     <label for="name">Name :</label>
                     <input type="text" name="name" placeholder="Your name here" size="32" required>
@@ -21,7 +23,7 @@
                     <input type="email" name="email" placeholder="Your email here" size="48" required>
                 </p>
                 <p>
-                    <label for="phone number">phone number :</label>
+                    <label for="phonenumber">phone number :</label>
                     <input type="tel" name="tel" placeholder="Your phone number here" size = "48" required>
                 </p>
                 <p>
@@ -36,5 +38,6 @@
             </form>
             
             <div id = "link"><a href="homepage.html">Back to navigation</a></div>
+            <p>© 2024 by Aiden Mohammed</p>
         </article>
     </body>

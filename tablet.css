@@ -1,42 +1,32 @@
 @charset "UTF-8";
-
 body {
     background: black;
-    background: -moz-linear-gradient(top, black 100%, white 0%);
-    background: -webkit-linear-gradient(top, black 100%, white 0%);
-    background: -o-linear-gradient(top, black 0%, white 100%);
-    background: linear-gradient(to bottom, black 60%, white 115%);
+    background: -moz-linear-gradient(top, black 100%, green 0%);
+    background: -webkit-linear-gradient(top, black 100%, green 0%);
+    background: -o-linear-gradient(top, black 0%, green 100%);
+    background: linear-gradient(to bottom, black 60%, green 115%);
     padding: 0%;
     margin: 0%;
 }
-#title {
+#title, #titleabout, #projectslist, #titlecontact {
     width: 50%;
     height: 40%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
-    font-size: 165%;
-    color: white;
+    font-size: 140%;
+    color: greenyellow;
     text-align: center;
 }
-#contactform {
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(39, 39, 39);
-    color: white;
-}
-
 #navigation {
-    color: white;
+    color: greenyellow;
     background-color: rgb(39, 39, 39);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 150%;
     width: 50%;
-    height: 60%;
+    height: 625px;
 }
 #footer {
     width: 50%;
@@ -44,36 +34,36 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
-    color: white;
+    color: greenyellow;
     text-align: center;
     font-size: 17px;
 }
-
-#projectslist{
+#contactform {
     width: 50%;
-    height: auto;
+    height: 625px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
-    color: white;
-    text-align: center;
+    color: greenyellow;
 }
-
 #projectexplanation{
-    color: white;
+    color: greenyellow;
 }
 #projecttitle{
-    color: rgb(175, 175, 175);
+    color: rgb(53, 85, 53);
 }
 #grade{
     color: rgb(125, 125, 125);
 }
 a:link {
-    color: white;
+    color: rgb(97, 196, 97);
 }
 a:visited{
-    color: white;
+    color: rgb(53, 85, 53);
 }
 a:hover{
-    color: rgb(92, 0, 92);
+    color: rgb(255, 255, 255);
+}
+.clear{
+    clear:both;
 }
