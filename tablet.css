@@ -1,10 +1,19 @@
 @charset "UTF-8";
 body {
     background: black;
-    background: -moz-linear-gradient(top, black 100%, green 0%);
-    background: -webkit-linear-gradient(top, black 100%, green 0%);
-    background: -o-linear-gradient(top, black 0%, green 100%);
-    background: linear-gradient(to bottom, black 60%, green 115%);
+    background: -moz-linear-gradient(45deg, black 100%, greenyellow 0%);
+    background: -webkit-linear-gradient(45deg, black 100%, greenyellow 0%);
+    background: -o-linear-gradient(45deg, black 0%, greenyellow 100%);
+    background: linear-gradient(45deg, black 60%, greenyellow 115%);
+    padding: 0%;
+    margin: 0%;
+}
+#bodyhomepage {
+    background: black;
+    background: -moz-linear-gradient(top, black 100%, greenyellow 0%);
+    background: -webkit-linear-gradient(top, black 100%, greenyellow 0%);
+    background: -o-linear-gradient(top, black 0%, greenyellow 100%);
+    background: linear-gradient(to bottom, black 60%, greenyellow 115%);
     padding: 0%;
     margin: 0%;
 }
@@ -62,7 +71,8 @@ a:visited{
     color: rgb(53, 85, 53);
 }
 a:hover{
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 .clear{
     clear:both;

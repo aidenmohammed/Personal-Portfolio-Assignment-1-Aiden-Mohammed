@@ -2,6 +2,15 @@
 
 body {
     background: black;
+    background: -moz-linear-gradient(45deg, black 100%, white 0%);
+    background: -webkit-linear-gradient(45deg, black 100%, white 0%);
+    background: -o-linear-gradient(45deg, black 0%, white 100%);
+    background: linear-gradient(45deg, black 60%, white 115%);
+    padding: 0%;
+    margin: 0%;
+}
+#bodyhomepage {
+    background: black;
     background: -moz-linear-gradient(top, black 100%, white 0%);
     background: -webkit-linear-gradient(top, black 100%, white 0%);
     background: -o-linear-gradient(top, black 0%, white 100%);
@@ -19,7 +28,7 @@ body {
     color: white;
     text-align: center;
 }
-#navigation {
+#navigation, #aboutmeinfo {
     color: white;
     background-color: rgb(39, 39, 39);
     margin-left: auto;
@@ -63,7 +72,8 @@ a:visited{
     color: white;
 }
 a:hover{
-    color: rgb(92, 0, 92);
+    background-color: rgb(92, 0, 92);
+    color: black;
 }
 .clear{
     clear:both;
