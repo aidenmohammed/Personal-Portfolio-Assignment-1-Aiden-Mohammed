@@ -36,7 +36,6 @@ body {
     text-align: center;
     font-size: 150%;
     width: 50%;
-    height: 700px;
 }
 #footer {
     width: 50%;
@@ -67,9 +66,11 @@ body {
 }
 a:link {
     color: white;
+    background-color: rgb(48, 0, 48);
 }
 a:visited{
     color: white;
+    background-color: rgb(48, 0, 48);
 }
 a:hover{
     background-color: rgb(92, 0, 92);
@@ -77,4 +78,10 @@ a:hover{
 }
 .clear{
     clear:both;
+}
+body img{
+    border-radius: 50%;
+}
+video{
+    width: 90%;
 }

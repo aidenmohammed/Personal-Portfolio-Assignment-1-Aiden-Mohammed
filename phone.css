@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body {
+    background: black;
+    background: -moz-linear-gradient(45deg, black 100%, red 0%);
+    background: -webkit-linear-gradient(45deg, black 100%, red 0%);
+    background: -o-linear-gradient(45deg, black 0%, red 100%);
+    background: linear-gradient(45deg, black 60%, red 115%);
+    padding: 0%;
+    margin: 0%;
+}
+#bodyhomepage {
+    background: black;
+    background: -moz-linear-gradient(top, black 100%, red 0%);
+    background: -webkit-linear-gradient(top, black 100%, red 0%);
+    background: -o-linear-gradient(top, black 0%, red 100%);
+    background: linear-gradient(to bottom, black 60%, red 115%);
+    padding: 0%;
+    margin: 0%;
+}
+#title, #titleabout, #projectslist, #titlecontact {
+    width: 50%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    font-size: 140%;
+    color: red;
+    text-align: center;
+}
+#navigation, #aboutmeinfo {
+    color: red;
+    background-color: rgb(39, 39, 39);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 150%;
+    width: 50%;
+    height: 120px;
+}
+#footer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    color: red;
+    text-align: center;
+    font-size: 17px;
+}
+#contactform {
+    width: 50%;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    color: red;
+}
+#projectexplanation{
+    color: red;
+}
+#projecttitle{
+    color: rgb(138, 0, 0);
+}
+#grade{
+    color: rgb(114, 81, 81);
+}
+a:link {
+    color: white;
+    background-color: rgb(56, 0, 0);
+}
+a:visited{
+    color: white;
+    background-color: rgb(56, 0, 0);
+
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.clear{
+    clear:both;
+}
+body img{
+    border-radius: 50%;
+}
