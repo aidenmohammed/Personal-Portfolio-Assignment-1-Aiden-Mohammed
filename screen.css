@@ -97,7 +97,6 @@ and (min-width:481px) and (max-width:960px){
         background: linear-gradient(45deg, black 60%, greenyellow 115%);
         padding: 0%;
         margin: 0%;
-        height: 900px;
     }
     #bodyhomepage {
         background: black;
@@ -107,7 +106,6 @@ and (min-width:481px) and (max-width:960px){
         background: linear-gradient(to bottom, black 60%, greenyellow 115%);
         padding: 0%;
         margin: 0%;
-        height: 900px
     }
     #title, #titleabout, #projectslist, #titlecontact {
         width: 50%;
@@ -177,7 +175,7 @@ and (min-width:481px) and (max-width:960px){
     }
 }
 @media only screen
-and (max-width:480px){
+and (max-width:600px){
 body {
     background: black;
     background: -moz-linear-gradient(45deg, black 100%, red 0%);
@@ -214,7 +212,6 @@ body {
     text-align: center;
     font-size: 150%;
     width: 50%;
-    height: 120px;
 }
 #footer {
     width: 50%;
@@ -227,7 +224,6 @@ body {
 }
 #contactform {
     width: 50%;
-    height: 120px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(39, 39, 39);
@@ -260,5 +256,6 @@ a:hover{
 }
 body img{
     border-radius: 50%;
+    scale: 80%;
 }
 }
